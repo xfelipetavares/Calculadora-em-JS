@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript/script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="cabecalho">
+            <h1>Calculadora Fácil</h1>
+            <h3>Basta Digitar 2 números &#128515;</h3>
+        </div>
+        <div id="campos">
+            <div id="campo1">
+                <input type="number" id="numero1">
+            </div>
+            <div id="campo2">
+                <input type="number" id="numero2">
+            </div>
+            <div id="operacao">
+                <input id="soma" value="Soma" type="button" onclick="soma()" >
+                <input id="sub" value="Subtração" type="button" onclick="subtrai()"> <br>
+                <input id="multi" value="Multiplicação" type="button" onclick="multiplica()">
+                <input id="divide" value="Divisão" type="button" onclick="divide()"> <br>
+        </div>
+            <div id="resultado"></div>
+        </div>
+        <div id="rodape" onclick="easteregg()"><p>Feito com &#128156; por Felipe Tavares</p></div>
+    </div>
+    
+</body>
+</html>
